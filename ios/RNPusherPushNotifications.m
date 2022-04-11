@@ -3,7 +3,7 @@
 #import "RNPusherPushNotifications.h"
 #import "UIKit/UIKit.h"
 #import <UIKit/UIKit.h>
-#import "RCTLog.h"
+#import <React/RCTLog.h>
 @import PushNotifications;
 
 @implementation RNPusherPushNotifications
