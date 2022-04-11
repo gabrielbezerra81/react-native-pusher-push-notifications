@@ -105,6 +105,11 @@ public class PusherWrapper {
     }
 
     private String getActivityName(Activity activity) {
+        
+        if (activity == null) {
+            return "";
+        }
+        
         return activity.getClass().getSimpleName();
     }
 
